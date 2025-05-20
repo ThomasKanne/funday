@@ -12,7 +12,7 @@ Prøv denne alternative live-cam:
 """)
 
 # Brug live kamera-komponent
-img_file = camera_input_live(debounce=80)
+img_file = camera_input_live(debounce=200)
 
 if img_file is not None:
     # img_file er en UploadedFile-lignende objekt
